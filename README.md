@@ -48,7 +48,7 @@ Também soma a quantidade no dicionário de itens comprados.
 
 - nosso_camp(): Faz a inscrição de um usuário no campeonato, coletando nome, e-mail e CPF (validado como numérico).
 
-  ---
+---
 
 ## 🧮 Funções do Administrador
 
@@ -106,12 +106,12 @@ carrinho = {
 
 Guarda os produtos comprados, o endereço do comprador e o valor total acumulado.
 
-📰 Conteúdos do Site
 conteudosTextos = {
     'Notícias': [...],
     'Jogos': [...],
     'Transferências': [...]
 }
+
 
 Contém as notícias e informações exibidas na parte pública do site.
 
@@ -140,7 +140,7 @@ Se for Cliente:
 - Fazer Login, Criar Conta, Comprar na loja, ou inscrever-se no campeonato
 - Se escolher loja, faz o fluxo completo: endereço → compra → confirmação → resumo da compra
 
-  ---
+---
 
 ## 🔚 Encerramento
 
@@ -155,7 +155,7 @@ print('Obrigado pela visita! ⚽')
 - Python 3
 - Requests: utilizada para integração com a API ViaCEP, permitindo buscar automaticamente o endereço do usuário a partir do CEP digitado
 
-  ---
+---
 
 ## 🚀 Como Usar
 
