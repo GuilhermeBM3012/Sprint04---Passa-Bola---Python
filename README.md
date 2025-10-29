@@ -33,16 +33,19 @@ O código está dividido em blocos principais:
 - criar_conta(): Permite o usuário cadastrar nome, e-mail e senha. Impede e-mails duplicados.
 - login(): Confere e-mail e senha para permitir entrada no sistema.
 
+
 🏠 Cadastro de Endereço
 
 - cadastro_endereco(): o usuário informa o CEP, e o sistema consulta automaticamente o site ViaCEP (API pública) para preencher o endereço.
 Depois, o usuário adiciona o número e complemento da casa.
+
 
 🛒 Compra de Produtos
 
 - comprar(): Mostra os produtos disponíveis, permite escolher e confirmar a compra. Atualiza o estoque e o valor total no carrinho.
 Também soma a quantidade no dicionário de itens comprados.
 - confirmarCompra(): Exibe o resumo da compra e dá a opção de remover itens antes de finalizar.
+
 
 🏆 Campeonato
 
@@ -60,6 +63,7 @@ Permite o controle total do estoque de produtos:
 - removerItem_loja(): Remove completamente um produto de todas as listas da loja.
 - atualizarItem_loja(): Atualiza informações (preço, estoque, nome etc.) de um produto existente.
 
+
 As ações estão agrupadas no dicionário:
 
 acoesAdmin_loja = {
@@ -68,6 +72,7 @@ acoesAdmin_loja = {
     'Atualizar': atualizarItem_loja
 }
 
+
 📰 Administração dos Textos (Notícias, Jogos e Transferências)
 
 Permite gerenciar os conteúdos exibidos no site:
@@ -75,6 +80,7 @@ Permite gerenciar os conteúdos exibidos no site:
 - adicionarItem_textos(): Adiciona novos textos em qualquer categoria (Notícias, Jogos ou Transferências).
 - removerItem_textos(): Exibe todos os textos numerados e permite remover pelo número.
 - atualizarItem_textos(): Substitui textos antigos por versões novas.
+
 
 Essas ações estão no dicionário:
 
@@ -97,6 +103,7 @@ loja = {
 
 Armazena o catálogo de produtos com preços e estoque.
 
+
 🛍️ Carrinho
 carrinho = {
     'Endereço': {'Rua': '', 'Bairro': '', 'Nº': '', 'CEP': ''},
@@ -105,6 +112,7 @@ carrinho = {
 }
 
 Guarda os produtos comprados, o endereço do comprador e o valor total acumulado.
+
 
 conteudosTextos = {
     'Notícias': [...],
@@ -133,6 +141,7 @@ Se for Administrador:
 - Pode escolher entre Textos ou Loja
 - Escolher se quer Adicionar, Remover ou Atualizar
 - Repetir ou sair do painel
+
 
 Se for Cliente:
 
