@@ -67,8 +67,11 @@ Permite o controle total do estoque de produtos:
 As ações estão agrupadas no dicionário:
 
 acoesAdmin_loja = {
+
     'Adicionar': adicionarItem_loja,
+    
     'Remover': removerItem_loja,
+    
     'Atualizar': atualizarItem_loja
 }
 
@@ -85,8 +88,11 @@ Permite gerenciar os conteúdos exibidos no site:
 Essas ações estão no dicionário:
 
 acoesAdmin_textos = {
+
     'Adicionar': adicionarItem_textos,
+    
     'Remover': removerItem_textos,
+    
     'Atualizar': atualizarItem_textos
 }
 
@@ -96,8 +102,11 @@ acoesAdmin_textos = {
 
 🏪 Loja
 loja = {
+
     'Produtos': ['Camiseta Unissex', 'Caneca', 'Bola', 'Shorts', 'Moletom esportivo', 'Chaveiro'],
+    
     'Preço': [89.90, 34.50, 129.90, 79.90, 189.90, 19.90],
+    
     'Estoque': [120, 55, 88, 0, 155, 90]
 }
 
@@ -105,6 +114,7 @@ Armazena o catálogo de produtos com preços e estoque.
 
 
 🛍️ Carrinho
+
 carrinho = {
 
     'Endereço': {
@@ -126,8 +136,11 @@ Guarda os produtos comprados, o endereço do comprador e o valor total acumulado
 
 
 conteudosTextos = {
+
     'Notícias': [...],
+    
     'Jogos': [...],
+    
     'Transferências': [...]
 }
 
