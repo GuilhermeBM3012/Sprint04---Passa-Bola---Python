@@ -106,8 +106,19 @@ Armazena o catálogo de produtos com preços e estoque.
 
 🛍️ Carrinho
 carrinho = {
-    'Endereço': {'Rua': '', 'Bairro': '', 'Nº': '', 'CEP': ''},
+
+    'Endereço': {
+    
+        'Rua': '',
+        
+        'Bairro': '',
+        
+        'Nº': '',
+        
+        'CEP': ''
+    },
     'Itens': {},
+    
     'Valor Total': 0
 }
 
@@ -176,7 +187,7 @@ print('Obrigado pela visita! ⚽')
 
 ---
 
-## Autor
+## 👨‍💻 Autor
 
 Guilherme Barone Milani
 
